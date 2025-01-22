@@ -4,7 +4,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
-import personImage from "../assets/testimonial.webp";
+// import personImage from "../assets/testimonial.webp";
 
 import {
   RiHtml5Line,
@@ -140,41 +140,6 @@ export const SKILLS = [
   },
 ];
 
-export const EXPERIENCES = [
-  {
-    yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
-  },
-  {
-    yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
-  },
-  {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
-  },
-];
-
 export const EDUCATION = [
   {
     id: 1,
@@ -195,11 +160,3 @@ export const EDUCATION = [
       "Successfully completed Higher Secondary with an excellent 90% score, demonstrating strong academic performance and dedication.",
   },
 ];
-
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
